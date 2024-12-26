@@ -1,0 +1,44 @@
+html {
+    font-family: 'Outfit';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0;
+    background-color: hsl(212, 45%, 89%);
+  }
+
+.border {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 250px;
+    height: 420px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 65%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.heading {
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.para {
+    font-weight: 400;
+    font-size: 13px;
+    padding: 0 10px;
+    opacity: 0.6;
+}
+
+@media (min-width: 576px) {
+    html {
+        padding: 170px 0;
+    }
+}
